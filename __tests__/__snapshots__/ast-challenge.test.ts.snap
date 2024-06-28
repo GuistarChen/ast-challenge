@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works 1`] = `
+"export interface UsePoolsQuery<TData> extends ReactQueryParams<QueryPoolsResponse, TData> {
+  request: QueryPoolsRequest;
+}
+
+const usePools = ({
+  request: request,
+  options: options
+}) => {
+  return useQuery([\\"poolsQuery\\", request], () => {
+    if (!queryService) throw new Error(\\"Query Service not initialized\\");
+    return queryService.pools(request);
+  }, options);
+};"
+`;
+
+exports[`works 2`] = `
+"export interface UseNumPoolsQuery<TData> extends ReactQueryParams<QueryNumPoolsResponse, TData> {
+  request: QueryNumPoolsRequest;
+}
+
+const useNumPools = ({
+  request: request,
+  options: options
+}) => {
+  return useQuery([\\"numpoolsQuery\\", request], () => {
+    if (!queryService) throw new Error(\\"Query Service not initialized\\");
+    return queryService.numpools(request);
+  }, options);
+};"
+`;
+
+exports[`works 3`] = `
+"export interface UseTotalLiquidityQuery<TData> extends ReactQueryParams<QueryTotalLiquidityResponse, TData> {
+  request: QueryTotalLiquidityRequest;
+}
+
+const useTotalLiquidity = ({
+  request: request,
+  options: options
+}) => {
+  return useQuery([\\"totalliquidityQuery\\", request], () => {
+    if (!queryService) throw new Error(\\"Query Service not initialized\\");
+    return queryService.totalliquidity(request);
+  }, options);
+};"
+`;
+
+exports[`works 4`] = `
+"export interface UsePoolQuery<TData> extends ReactQueryParams<QueryPoolResponse, TData> {
+  request: QueryPoolRequest;
+}
+
+const usePool = ({
+  request: request,
+  options: options
+}) => {
+  return useQuery([\\"poolQuery\\", request], () => {
+    if (!queryService) throw new Error(\\"Query Service not initialized\\");
+    return queryService.pool(request);
+  }, options);
+};"
+`;
+
+exports[`works 5`] = `
+"export interface UsePoolParamsQuery<TData> extends ReactQueryParams<QueryPoolParamsResponse, TData> {
+  request: QueryPoolParamsRequest;
+}
+
+const usePoolParams = ({
+  request: request,
+  options: options
+}) => {
+  return useQuery([\\"poolparamsQuery\\", request], () => {
+    if (!queryService) throw new Error(\\"Query Service not initialized\\");
+    return queryService.poolparams(request);
+  }, options);
+};"
+`;
+
+exports[`works 6`] = `
+"export interface UseTotalPoolLiquidityQuery<TData> extends ReactQueryParams<QueryTotalPoolLiquidityResponse, TData> {
+  request: QueryTotalPoolLiquidityRequest;
+}
+
+const useTotalPoolLiquidity = ({
+  request: request,
+  options: options
+}) => {
+  return useQuery([\\"totalpoolliquidityQuery\\", request], () => {
+    if (!queryService) throw new Error(\\"Query Service not initialized\\");
+    return queryService.totalpoolliquidity(request);
+  }, options);
+};"
+`;
+
+exports[`works 7`] = `
+"export interface UseTotalSharesQuery<TData> extends ReactQueryParams<QueryTotalSharesResponse, TData> {
+  request: QueryTotalSharesRequest;
+}
+
+const useTotalShares = ({
+  request: request,
+  options: options
+}) => {
+  return useQuery([\\"totalsharesQuery\\", request], () => {
+    if (!queryService) throw new Error(\\"Query Service not initialized\\");
+    return queryService.totalshares(request);
+  }, options);
+};"
+`;
+
+exports[`works 8`] = `
+"export interface UseSpotPriceQuery<TData> extends ReactQueryParams<QuerySpotPriceResponse, TData> {
+  request: QuerySpotPriceRequest;
+}
+
+const useSpotPrice = ({
+  request: request,
+  options: options
+}) => {
+  return useQuery([\\"spotpriceQuery\\", request], () => {
+    if (!queryService) throw new Error(\\"Query Service not initialized\\");
+    return queryService.spotprice(request);
+  }, options);
+};"
+`;
+
+exports[`works 9`] = `
+"export interface UseEstimateSwapExactAmountInQuery<TData> extends ReactQueryParams<QuerySwapExactAmountInResponse, TData> {
+  request: QuerySwapExactAmountInRequest;
+}
+
+const useEstimateSwapExactAmountIn = ({
+  request: request,
+  options: options
+}) => {
+  return useQuery([\\"estimateswapexactamountinQuery\\", request], () => {
+    if (!queryService) throw new Error(\\"Query Service not initialized\\");
+    return queryService.estimateswapexactamountin(request);
+  }, options);
+};"
+`;
+
+exports[`works 10`] = `
+"export interface UseEstimateSwapExactAmountOutQuery<TData> extends ReactQueryParams<QuerySwapExactAmountOutResponse, TData> {
+  request: QuerySwapExactAmountOutRequest;
+}
+
+const useEstimateSwapExactAmountOut = ({
+  request: request,
+  options: options
+}) => {
+  return useQuery([\\"estimateswapexactamountoutQuery\\", request], () => {
+    if (!queryService) throw new Error(\\"Query Service not initialized\\");
+    return queryService.estimateswapexactamountout(request);
+  }, options);
+};"
+`;
